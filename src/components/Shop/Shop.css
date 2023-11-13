@@ -15,7 +15,10 @@
 	position: sticky;
 	top: 0;
 }
+
 .order-title {
+	padding: 20px;
+	font-size: 25px;
 	text-align: center;
 }
 .order-details {
@@ -24,6 +27,7 @@
 }
 .cart-btn-1 {
 	width: 95%;
+	margin-top: 10px;
 	background: #ff3030;
 	color: white;
 	padding: 10px 0;
@@ -47,4 +51,8 @@
 
 .cart-btn-2:hover {
 	border: 0.5px solid black;
+}
+
+.para {
+	padding: 5px 0;
 }

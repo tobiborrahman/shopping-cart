@@ -1,0 +1,25 @@
+.checkout {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.items {
+	text-align: center;
+}
+
+.home-btn {
+	background: bisque;
+	padding: 10px 30px;
+	border-radius: 20px;
+	color: black;
+	text-underline-offset: none;
+	font-weight: bold;
+	margin-top: 5px;
+	border: 0.5px solid black;
+	transition: 0.5s;
+}
+.home-btn:hover {
+	background: rgb(244, 184, 106);
+}

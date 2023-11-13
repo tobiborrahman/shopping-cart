@@ -1,6 +1,6 @@
 import React from 'react';
 import './ReviewItem.css';
-import { FaRegTrashAlt } from 'react-icons/fa';
+import { FaTrashAlt } from 'react-icons/fa';
 
 const ReviewItem = ({ product, handleRemoveFromCart }) => {
 	const { id, name, img, quantity, price } = product;
@@ -19,7 +19,7 @@ const ReviewItem = ({ product, handleRemoveFromCart }) => {
 					</p>
 				</div>
 			</div>
-			<FaRegTrashAlt
+			<FaTrashAlt
 				onClick={() => handleRemoveFromCart(id)}
 				className="icon"
 			/>

@@ -24,11 +24,11 @@ const Cart = ({ cart, deleteAllFromCart, children }) => {
 		<div>
 			<h3 className="order-title">Order Summary</h3>
 			<div className="order-details">
-				<p>Selected Items: {quantity}</p>
-				<p>Total Price: ${total}</p>
-				<p>Shipping Charge: ${totalShipping}</p>
-				<p>Tax: ${tax}</p>
-				<h3>Grand Total: ${grandTotal}</h3>
+				<p className="para">Selected Items: {quantity}</p>
+				<p className="para">Total Price: ${total}</p>
+				<p className="para">Shipping Charge: ${totalShipping}</p>
+				<p className="para">Tax: ${tax}</p>
+				<h3 className="para">Grand Total: ${grandTotal}</h3>
 				<button onClick={deleteAllFromCart} className="cart-btn-1">
 					Clear Cart <FaTrash />
 				</button>
